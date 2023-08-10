@@ -1,0 +1,667 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="cross-border payment, fintech, international payment, cross-border transactions. payment service provider, seamless cross-border payments, currency exchange marketplace, remittances platform, mobile wallets, mobile wallet usage "
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/clone.css" />
+    <link rel="shortcut icon" href="https://cudium.com/images/logo-blue.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FJ90T203G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-3FJ90T203G');
+    </script>
+    <title>Cudium</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION STARTS -->
+    <header id="mainHeader">
+        <nav id="navbar" class="fixed-top">
+            <div class="navbar_content flex align-center justify-between">
+                <a href="/" class="flex align-center">
+                    <img src="https://cudium.com/images/logo-white.png" alt="cudium-logo" class="logo" />
+                    <h1 class="logoText">Cudium</h1>
+                </a>
+                <div class="navbar_center">
+                    <ul class="navbar_links_container flex align-center">
+                        <li class="dropdown navbar_list">
+                            <button class="dropbtn">
+                  Services <span><i class="fa-solid fa-angle-down"></i></span>
+                </button>
+                            <div class="dropdown-content">
+                                <div class="services_link--container">
+                                    <a href="#" class="services_link">Foreign Account
+                    </a>
+
+                                </div>
+                                <div class="services_link--container">
+                                    <a href="#" class="services_link">Transfer Cash</a
+                    >
+                    
+                  </div>
+                  <div class="services_link--container">
+                    <a href="#" class="services_link"
+                      >Swap Currency</a
+                    >
+                    
+                  </div>
+                </div>
+              </li>
+              <li class="navbar_list">
+                <a href="#" class="navbar_link">FAQs</a>
+                        </li>
+                        <li class="navbar_list">
+                            <a href="#" class="navbar_link">Help Center</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="navbar_right">
+                        <a href="https://play.google.com/store/apps/details?id=cudium.app" target="_blank" class="nav_btn" download>Download app</a>
+                    </div>
+
+                    <a class="hamburger" id="hambuger" onclick="onMenuClick()">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+
+                    <ul class="mobileMenu" id="mobileMenu">
+                        <li class="navbar_list">
+                            <a href="https://play.google.com/store/apps/details?id=cudium.app" target="_blank" class="nav_btn" download>Download app</a>
+                        </li>
+
+                        <li class="navbar_list nav_list--header">Services</li>
+                        <li class="navbar_list services_info flex justify-between">
+                            <a href="/services">Foreign Account
+                  </a> <span><i class="fas fa-angle-right navbar_list--icon "></i></span>
+                        </li>
+                        <li class="navbar_list services_info flex justify-between"><a href="/transfer">Transfer Cash</a><span><i class="fas fa-angle-right navbar_list--icon "></i></span> </li>
+                        <li class="navbar_list services_info flex justify-between"><a href="/swap">Swap Currency</a
+                  ><span><i class="fas fa-angle-right navbar_list--icon "></i></span></li>
+                   <li class="navbar_list nav_list--header">Help Center</li>
+            <li class="navbar_list services_info">
+              <a href="/#FAQ" class="navbar_link nav--id" onclick="onClose()"> FAQs</a>
+                        </li>
+                        <li class="navbar_list services_info">
+                            <a href="#contact" class="navbar_link nav--id" onclick="onClose()"> Contact Us </a>
+                        </li>
+
+                    </ul>
+                    </div>
+        </nav>
+
+        <div class="mainHeaderContent flex align-center justify-center">
+            <div class="mainHeaderTextContentContainer">
+                <div class="mainHeaderTextContentContainer-top flex align-center justify-center">
+                    <h1 class="headerMainText">
+                        Send Money without a hassle.
+                        <span class="headerMainText_span">To anyone.</span>
+                        <p class="headerMainText_block">To anyone.</p>
+                    </h1>
+                    <div class="styleBar"></div>
+                </div>
+                <h3 class="headerSubText">
+                    Make transactions beyond the borders of your country. You can do it faster and better here.
+                </h3>
+
+                <div class="headerBtnsContainer flex align-center justify-between">
+                    <a href="https://play.google.com/store/apps/details?id=cudium.app" target="_blank" class="downloadBtn flex align-center" download>
+                        <i class="fa-brands fa-google-play brandIcon"></i>
+                        <div class="downloadBtnTextContainer">
+                            <h3 class="downloadBtnText">Download On</h3>
+                            <h2 class="downloadLocationText">Google Play</h2>
+                        </div>
+                    </a>
+
+                    <a href="https://apps.apple.com/ng/app/cudium/id6444403749" class="downloadBtn flex align-center">
+                        <div class="appBtnNoHover">
+                            <i class="fa-brands fa-apple brandIcon"></i>
+                            <div class="downloadBtnTextContainer">
+                                <h3 class="downloadBtnText">Download On</h3>
+                                <h2 class="downloadLocationText">Apple Store</h2>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+
+
+            </div>
+            <div class="mainHeaderImageContainer">
+                <img src="https://cudium.com/images/hero.png" alt="hero-image" class="mainHeaderImg" />
+            </div>
+        </div>
+
+        <div class="circle_gradient headerCircleGradient_topRight"></div>
+        <div class="circle_gradient headerCircleGradient_bottomLeft"></div>
+    </header>
+    <!-- HEADER SECTION ENDS -->
+
+    <!-- SECTION ONE STARTS -->
+
+    <section id="sectionOne" class="flex justify-center">
+        <div class="container">
+            <div class="sectionOne_row flex align-center justify-between">
+                <div class="step flex align-center">
+                    <img src="https://cudium.com/images/phone-coin1.png" alt="cudium-screen" class="step-iphone" />
+
+                    <div class="stepDesc">
+                        <h2 class="stepDescMainText">Open Account</h2>
+                        <h3 class="stepDescSubText">Create multiple international wallets</h3>
+                    </div>
+                </div>
+
+                <div class="step flex align-center">
+                    <img src="https://cudium.com/images/coin2.png" alt="cudium-screen" class="step-iphone" />
+
+                    <div class="stepDesc">
+                        <h2 class="stepDescMainText">Deposit Money</h2>
+                        <h3 class="stepDescSubText">Fund multi-currency wallets</h3>
+                    </div>
+                </div>
+
+                <div class="step flex align-center">
+                    <img src="https://cudium.com/images/coin3.png" alt="cudium-screen" class="step-iphone" />
+
+                    <div class="stepDesc">
+                        <h2 class="stepDescMainText">Send Money</h2>
+                        <h3 class="stepDescSubText">Make global transfers in multiple currencies</h3>
+                    </div>
+                </div>
+
+                <div class="step flex align-center">
+                    <img src="https://cudium.com/images/coin4.png" alt="cudium-screen" class="step-iphone" />
+
+                    <div class="stepDesc">
+                        <h2 class="stepDescMainText">Receive Money</h2>
+                        <h3 class="stepDescSubText">Receive funds in multiple currencies </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper sectionOneSWiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="sectionOne_slider flex align-center justify-between">
+                            <div class="step flex align-center">
+                                <img src="https://cudium.com/images/phone-coin1.png" alt="cudium-screen" class="step-iphone" />
+
+                                <div class="stepDesc">
+                                    <h2 class="stepDescMainText">Open Account</h2>
+                                    <h3 class="stepDescSubText">Create multiple international wallets</h3>
+                                </div>
+                            </div>
+                            <div class="step flex align-center">
+                                <img src="https://cudium.com/images/coin2.png" alt="cudium-screen" class="step-iphone" />
+
+                                <div class="stepDesc">
+                                    <h2 class="stepDescMainText">Deposit Money</h2>
+                                    <h3 class="stepDescSubText">Fund multi-currency wallets</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="sectionOne_slider flex align-center justify-between">
+                            <div class="step flex align-center">
+                                <img src="https://cudium.com/images/coin3.png" alt="cudium-screen" class="step-iphone" />
+
+                                <div class="stepDesc">
+                                    <h2 class="stepDescMainText">Send Money</h2>
+                                    <h3 class="stepDescSubText">Make global transfers in multiple currencies</h3>
+                                </div>
+                            </div>
+                            <div class="step flex align-center">
+                                <img src="https://cudium.com/images/coin4.png" alt="cudium-screen" class="step-iphone" />
+
+                                <div class="stepDesc">
+                                    <h2 class="stepDescMainText">Receive Money</h2>
+                                    <h3 class="stepDescSubText">Receive funds in multiple currencies</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ONE ENDS -->
+
+    <!-- SECTION TWO BEGINS -->
+    <section id="howTo" class="sectionTwo flex justify-center">
+        <div class="container">
+            <div class="sectionTwo_row">
+                <p class="sectionTwoHeader">How it works</p>
+                <div class="sectionTwo_col1">
+                    <div id="stepOne" class="sectionTwo_step sectionTwo_step-one flex align-center active-step">
+                        <div class="thickBar activeThickBar"></div>
+                        <div class="sectionTwo_step-content">
+                            <h2 class="sectionTwo_step-mainText active-title">
+                                Create a foreign account
+                            </h2>
+                            <h3 class="sectionTwo_step-subText active">
+                                Create USD, GBP and EUR wallets to receive and send money and payments seamlessly in these multiple currencies
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div id="stepTwo" class="sectionTwo_step sectionTwo_step-two flex align-center">
+                        <div class="thickBar"></div>
+                        <div class="sectionTwo_step-content">
+                            <h2 class="sectionTwo_step-mainText">
+                                Complete KYC verification
+                            </h2>
+                            <h3 class="sectionTwo_step-subText">
+                                Download the Cudium App from the play store, sign up, verify your identity in a few steps and your account is ready.
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div id="stepThree" class="sectionTwo_step sectionTwo_step-three flex align-center">
+                        <div class="thickBar"></div>
+                        <div class="sectionTwo_step-content">
+                            <h2 class="sectionTwo_step-mainText">
+                                Make limitless transactions
+                            </h2>
+                            <h3 class="sectionTwo_step-subText">
+                                Make global transactions- send, and receive USD, GBP and EUR without limits from/to anywhere in the world
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sectionTwo_col2">
+                    <img id="sectionTwoImage" src="https://cudium.com/images/iPhone-13.png" alt="cudium-screen" class="sectionTwo-image" />
+                </div>
+                <div class="swiper mySwiper sectionTwo_mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="sectionTwo_mobile--col flex align-center justify-start">
+                                <div class="sectionTwo_step-content sectionTwo_step-content--slide ">
+                                    <h2 class="sectionTwo_step-mainText active-title">
+                                        1. Create a foreign account
+                                    </h2>
+                                    <h3 class="sectionTwo_step-subText active">
+                                        Create USD, GBP and EUR wallets to receive and send money and payments seamlessly in these multiple currencies
+                                    </h3>
+                                </div>
+                                <div class="sectionTwo_mobile--col2 flex align-center justify-center">
+                                    <img src="https://cudium.com/images/iPhone-13.png" alt="cudium-screen" class="sectionTwo-image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sectionTwo_mobile--col flex align-center justify-start">
+                                <div class="sectionTwo_step-content sectionTwo_step-content--slide ">
+                                    <h2 class="sectionTwo_step-mainText active-title">
+                                        2. Complete KYC verification
+                                    </h2>
+                                    <h3 class="sectionTwo_step-subText active">
+                                        Download the Cudium App from the play store, sign up, verify your identity in a few steps and your account is ready.
+                                    </h3>
+                                </div>
+                                <div class="sectionTwo_mobile--col2 flex align-center justify-center">
+                                    <img src="https://cudium.com/images/iphone2.png" alt="cudium-screen" class="sectionTwo-image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sectionTwo_mobile--col flex align-center justify-start">
+                                <div class="sectionTwo_step-content sectionTwo_step-content--slide ">
+                                    <h2 class="sectionTwo_step-mainText active-title">
+                                        3. Make limitless transactions
+                                    </h2>
+                                    <h3 class="sectionTwo_step-subText active">
+                                        Make global transactions- send, and receive USD, GBP and EUR without limits from/to anywhere in the world
+                                    </h3>
+                                </div>
+                                <div class="sectionTwo_mobile--col2 flex align-center justify-center">
+                                    <img src="https://cudium.com/images/iphone3.png" alt="cudium-screen" class="sectionTwo-image" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-scrollbar">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION TWO ENDS -->
+
+    <!-- SECTION THREE BEGINS -->
+
+    <section id="section" class="sectionThree flex justify-center">
+        <div class="container">
+            <div class="sectionThree_row flex justify-between">
+                <div class="sectionThree_col1">
+                    <div class="sectionThree_col1-top">
+                        <div class="sectionThree_col1-top-mainTitleContainer">
+                            <h2 class="sectionMainTitle">
+                                We go far and beyond to satisfy you
+                            </h2>
+                            <div class="styleBar"></div>
+                        </div>
+
+                        <h3 class="sectionThree_col1-subTitle">
+                            Our services will make you wonder what you have been doing with your old bank.
+                        </h3>
+                    </div>
+                    <div class="sectionThree_col1-bottom flex justify-between">
+                        <a href="https://play.google.com/store/apps/details?id=cudium.app" target="_blank" download class="downloadBtn flex align-center">
+                            <i class="fa-brands fa-google-play brandIcon"></i>
+                            <div class="downloadBtnTextContainer">
+                                <h3 class="downloadBtnText">Download On</h3>
+                                <h2 class="downloadLocationText">Google Play</h2>
+                            </div>
+                        </a>
+
+                        <a href="https://apps.apple.com/ng/app/cudium/id6444403749" class="downloadBtn flex align-center">
+                            <div class="appBtnNoHover">
+                                <i class="fa-brands fa-apple brandIcon"></i>
+                                <div class="downloadBtnTextContainer">
+                                    <h3 class="downloadBtnText">Download On</h3>
+                                    <h2 class="downloadLocationText">Apple Store</h2>
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sectionThree_col2 flex justify-between">
+                    <div class="sectionThree_col2_item flex">
+                        <div class="sectionThree_col2_item-inner">
+                            <div class="sectionThree_col2_item sectionThree_col2_item-outer">
+                                <i class="fa-solid fa-message sectionThree_col2_item-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="sectionThree_col2_itemDesc">
+                            <h2 class="sectionThree_col2_itemDesc-MainText">
+                                No hidden fees
+                            </h2>
+                            <h3 class="sectionThree_col2_itemDesc-subText">
+                                Say goodbye to overpriced transaction fees. That’s the past, we are the present.
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="sectionThree_col2_item flex">
+                        <div class="sectionThree_col2_item-inner">
+                            <div class="sectionThree_col2_item sectionThree_col2_item-outer">
+                                <i class="fa-solid fa-credit-card sectionThree_col2_item-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="sectionThree_col2_itemDesc">
+                            <h2 class="sectionThree_col2_itemDesc-MainText">
+                                Virtual cards
+                            </h2>
+                            <h3 class="sectionThree_col2_itemDesc-subText">
+                                Virtual cards to pay online except this time the cost is almost Zero.
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="sectionThree_col2_item flex">
+                        <div class="sectionThree_col2_item-inner">
+                            <div class="sectionThree_col2_item sectionThree_col2_item-outer">
+                                <!-- <i
+                    class="fa-solid fa-shield-check sectionThree_col2_item-icon"
+                  ></i> -->
+
+                                <i class="fa-solid fa-shield sectionThree_col2_item-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="sectionThree_col2_itemDesc">
+                            <h2 class="sectionThree_col2_itemDesc-MainText">
+                                Controls & Security
+                            </h2>
+                            <h3 class="sectionThree_col2_itemDesc-subText">
+                                We take security very seriously. We don’t breach or undermine that here, so you are safe with us.
+
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="sectionThree_col2_item flex">
+                        <div class="sectionThree_col2_item-inner">
+                            <div class="sectionThree_col2_item sectionThree_col2_item-outer">
+                                <i class="fa-solid fa-headphones sectionThree_col2_item-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="sectionThree_col2_itemDesc">
+                            <h2 class="sectionThree_col2_itemDesc-MainText">
+                                24/7 support
+                            </h2>
+                            <h3 class="sectionThree_col2_itemDesc-subText">
+                                Access to topnotch customer services 24/7. You are assured of assistance with anything you’ll need.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION THREE ENDS -->
+
+    <!-- SECTION FOUR STARTS -->
+
+    <section id="FAQ" class="sectionFour flex justify-center">
+        <div class="container">
+
+            <h2 class="sectionMainTitle flex justify-center">Frequently Asked Questions</h2>
+            <div class="flex align-center justify-center carousel-controls">
+                <h3>Get the right facts</h3>
+
+            </div>
+
+            <div class="blogsRow flex align-center justify-center">
+                <button class="accordion">What can I do with Cudium?</button>
+                <div class="panel">
+                    <p>Deposit in Naira and other currencies like GBP, EURO, Transfer and Withdraw. You can also swap available currencies within the app.
+                    </p>
+                </div>
+                <button class="accordion">Is my money safe on Cudium?</button>
+                <div class="panel">
+                    <p>There’s a two-step security process to ensure your money and account are safeguarded- account passcode and app fingerprint.
+                    </p>
+                </div>
+                <button class="accordion">Which currencies are available on the Cudium platform?</button>
+                <div class="panel">
+                    <p>Naira (NGN), Great Britain Pounds (GBP), and Euro (EUR). </p>
+                </div>
+                <button class="accordion">Can I have foreign accounts on Cudium?</button>
+                <div class="panel">
+                    <p>Yes, and we call them Virtual Accounts. </p>
+                </div>
+                <button class="accordion">Is KYC important?</button>
+                <div class="panel">
+                    <p>Yes, it is essential. You are required to complete the Two-levels of KYC to be able to perform any transaction on the app.</p>
+                </div>
+                <button class="accordion moreQuestions">More Questions?</button>
+                <div class="panel">
+                    <p> Contact us: <a href="mailto:admin@cudium.com">admin@cudium.com</a> </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION FOUR ENDS -->
+
+    <!-- SECTION FIVE STARTS -->
+
+    <section class="sectionFive flex justify-center">
+        <div class="container">
+            <div class="sectionFive_row flex justify-center">
+                <div class="sectionFive_col1">
+                    <h2 class="sectionMainTitle">Download our Mobile app</h2>
+                    <h3>
+                        Download the mobile app on google play or play store within few minutes
+                    </h3>
+                    <div class="sectionFiveBtnsContainer flex align-center justify-between">
+                        <a href="https://play.google.com/store/apps/details?id=cudium.app" target="_blank" download class="downloadBtn flex align-center">
+                            <i class="fa-brands fa-google-play brandIcon"></i>
+                            <div class="downloadBtnTextContainer">
+                                <h3 class="downloadBtnText">Download On</h3>
+                                <h2 class="downloadLocationText">Google Play</h2>
+                            </div>
+                        </a>
+
+                        <a href="https://apps.apple.com/ng/app/cudium/id6444403749" class="downloadBtn flex align-center appStore">
+                            <div class="appBtnNoHover">
+                                <i class="fa-brands fa-apple brandIcon"></i>
+                                <div class="downloadBtnTextContainer">
+                                    <h3 class="downloadBtnText">Download On</h3>
+                                    <h2 class="downloadLocationText">Apple Store</h2>
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="sectionFive_col2 flex">
+                    <img src="https://cudium.com/images/phoneGroup.png" alt="cudium-screen" />
+                </div>
+                <div class="sectionFive_col3 flex">
+                    <img src="https://cudium.com/images/test.png" alt="cudium-screen" />
+                </div>
+            </div>
+        </div>
+
+        <div class="circle_gradient sectionFiveCircleGradient_topRight"></div>
+        <div class="circle_gradient sectionFiveCircleGradient_bottomLeft"></div>
+    </section>
+
+    <!-- SECTION FIVE ENDS -->
+
+    <footer id="footer" class="flex justify-center">
+        <div class="container">
+            <div class="footer-top flex justify-center">
+                <div class="footer_col1 footer_col1-desktop">
+                    <a href="/" class="flex align-center">
+                        <img src="https://cudium.com/images/logo-blue.png" alt="cudium-logo" class="footer-logo" />
+                        <h2 class="footer_cudiumText">Cudium</h2>
+                    </a href="/">
+
+                    <h3>
+                        Learn more about Cudium, get engaged and have a say in making cross-border payment better. Follow us on:
+                    </h3>
+
+                    <div class="footerIconContainer">
+                        <a href="http://www.twitter.com/cudium">
+                            <i class="fa-brands fa-twitter footer-icon"></i>
+                        </a>
+
+                        <a href="http://www.instagram.com/cudium">
+                            <i class="fa-brands fa-instagram footer-icon"></i>
+                        </a>
+
+                        <a href="http://www.facebook.com/cudium">
+                            <i class="fa-brands fa-facebook footer-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_col2">
+                    <h4><a href="#howTo">How it Works</a></h4>
+                    <h4 id="FAQ" class="footerLink-mobile1"><a href="#">FAQs & Help</a></h4>
+                    <h4>Services</h4>
+                    <ul class="footerList_container">
+                        <li class="footerList">
+                            <a href="#">Create foreign account</a>
+                        </li>
+                        <li class="footerList">
+                            <a href="#">Transfer cash</a>
+                        </li>
+                        <li class="footerList">
+                            <a href="#">Swap currency</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_col3">
+                    <h4 class="footerLink-mobile"><a href="/#FAQ">FAQs & Help</a></h4>
+                    <h4 id="contact">Contact</h4>
+                    <ul class="footerList_container">
+                        <li class="footerList">Call us: <span><a href="https://wa.me/message/2ZCQP6MTFIYCF1">+234 903 985 7490</a></span></li>
+                        <li class="footerList">
+                            Write us:
+                            <span><a href="mailto:admin@cudium.com">admin@cudium.com</a></span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer-bottom flex align-center justify-center">
+                <div class="footer_col1 footer_col1-mobile">
+                    <a href="/" class="flex align-center">
+                        <img src="https://cudium.com/images/logo-blue.png" alt="cudium-logo" class="footer-logo" />
+                        <h2 class="footer_cudiumText">Cudium</h2>
+                    </a>
+
+                    <h3 class="footer-bottom_mobile">
+                        Learn more about Cudium, get engaged and have a say in making cross-border payment better. Follow us on:
+
+                    </h3>
+
+
+                    <div class="footerIconContainer">
+                        <a href="http://www.twitter.com/cudium">
+                            <i class="fa-brands fa-twitter footer-icon"></i>
+                        </a>
+
+                        <a href="http://www.instagram.com/cudium">
+                            <i class="fa-brands fa-instagram footer-icon"></i>
+                        </a>
+
+                        <a href="http://www.facebook.com/cudium">
+                            <i class="fa-brands fa-facebook footer-icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="footer-bottom-content flex align-center justify-between">
+                    <p class="footer-bottom-text">Copyright reserved</p>
+
+                    <a href="#" class="footer-bottom-text footer-bottom-link">Terms of Use</a>
+            
+                  <a href="#" class="footer-bottom-text footer-bottom-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
