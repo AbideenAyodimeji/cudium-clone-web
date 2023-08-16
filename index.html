@@ -6,13 +6,8 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -80,7 +75,7 @@
     </header>
 
     <!-- main start -->
-    <main class="main-center">
+    <main class="main-center" id="main-center">
       <div class="top">
         <h1>Send Money without a hassle. To anyone.</h1>
       </div>
@@ -133,45 +128,50 @@
       <!-- slider container -->
       <div class="swiper sectionOneSwiper">
         <!-- aditional required wrapper -->
-        <div class="swiper-wrapper slider1-2">
+        <div class="swiper-wrapper">
           <!-- slides -->
-          <div class="swiper-containerOne swiperSlide">
-            <!-- swiper one-->
-            <div class="swiper-section">
+          <div class="swiper-slide">
+            <div class="swiper-containerOne">
               <div class="swiper-box topBox box1">
                 <img src="/img/phone-coin1.png" class="img" alt="" />
-                <div class="swiper-section-desc">
-                  <h4>open account</h4>
-                  <p>Create multiple international wallets</p>
+                <div>
+                  <h5 class="swiper-desc-main">open account</h5>
+                  <p class="swiper-desc-sub">
+                    Create multiple international wallets
+                  </p>
                 </div>
               </div>
 
-              <div class="swiper-box topBox box2">
+              <div class="swiper-box topBox box2 boxDR">
                 <img src="/img/coin2.png" class="img" alt="" />
-                <div class="swiper-section-desc">
-                  <h4>Deposit money</h4>
-                  <p>Fund multi-currency wallets</p>
+                <div>
+                  <h5 class="swiper-desc-main">Deposit money</h5>
+                  <p class="swiper-desc-sub">Fund multi-currency wallets</p>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- swiper two -->
-          <div class="swiper-containerTwo swiperSlide">
-            <div class="swiper-section">
+          <div class="swiper-slide">
+            <div class="swiper-containerOne">
               <div class="swiper-box downBox">
                 <img src="/img/coin3.png" alt="" class="img" />
                 <div class="swiper-section-desc">
-                  <h4>send money</h4>
-                  <p>Make global transfers in multiple currencies</p>
+                  <h5 class="swiper-desc-main">send money</h5>
+                  <p class="swiper-desc-sub">
+                    Make global transfers in multiple currencies
+                  </p>
                 </div>
               </div>
 
-              <div class="swiper-box downBox">
+              <div class="swiper-box downBox boxDR">
                 <img src="/img/coin4.png" class="img" alt="" />
                 <div class="swiper-section-desc">
-                  <h4>Receive money</h4>
-                  <p>Receive funds in multiple currencies</p>
+                  <h5 class="swiper-desc-main">Receive money</h5>
+                  <p class="swiper-desc-sub">
+                    Receive funds in multiple currencies
+                  </p>
                 </div>
               </div>
             </div>
@@ -191,64 +191,105 @@
         </div>
         <div class="section-2">
           <div class="left">
-            <div><p>Create a foreign account</p></div>
-            <div><p>Complete KYC verification</p></div>
-            <div><p>Make limitless transactions</p></div>
-          </div>
-          <div><img src="/img/iPhone-13.png" alt="" /></div>
-        </div>
-      </div>
-      <!-- ******************  slider **************************** -->
-
-      <div class="slide-container">
-        <div class="section2-mobileHeader">
-          <h4>How it works</h4>
-        </div>
-        <div class="section2-mobile-img">
-          <img
-            src="/img/iPhone-13.png"
-            alt="cudium screen"
-            class="sectionTwo-img"
-          />
-        </div>
-        <div class="section2-slider">
-          <div class="slider-wrapper">
-            <div class="swiper-slide">
-              <h2>1. Create a foreign account</h2>
-              <h3>
+            <div>
+              <p class="sec-main-text">Create a foreign account</p>
+              <h3 class="sec-sub-text">
                 Create USD, GBP and EUR wallets to receive and send money and
-                payments seamlessly in these multiple currencies
+                payments seamlessly in these multiple currencies.
               </h3>
-              <div class="swiperSlideImg">
-                <img src="/img/iPhone-13.png" alt="cudium screen" />
-              </div>
             </div>
-
-            <!-- <div class="swiper-slide">
-              <h2>2. Complete KYC verification</h2>
-              <h3>
+            <div>
+              <p class="sec-main-text">Complete KYC verification</p>
+              <h3 class="sec-sub-text">
                 Download the Cudium App from the play store, sign up, verify
                 your identity in a few steps and your account is ready.
               </h3>
-              <div class="swiperSlideImg">
-                <img src="/img/iPhone-13.png" alt="cudium screen" />
-              </div>
             </div>
-
-            <div class="swiper-slide">
-              <h2>3. Make limitless transactions</h2>
-              <h3>
+            <div>
+              <p class="sec-main-text">Make limitless transactions</p>
+              <h3 class="sec-sub-text">
                 Make global transactions- send, and receive USD, GBP and EUR
-                without limits from/to anywhere in the world
+                without limits from/to anywhere in the world.
               </h3>
-              <div class="swiperSlideImg">
-                <img src="/img/iPhone-13.png" alt="cudium screen" />
-              </div>
-            </div> -->
+            </div>
+          </div>
+          <div>
+            <img src="/img/iPhone-13.png" alt="" />
           </div>
         </div>
       </div>
-      <div class="swiper-scrollbar"></div>
+
+      <!-- ****************** slider **************************** -->
+
+      <!-- Slider main container -->
+      <div class="swiper sectionTwo-mobile">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="mobileTwoSwipe">
+              <div class="Swipe1Content">
+                <h2 class="SwipeContent-main">1. Create a foreign account</h2>
+                <h3 class="SwipeContent-sub">
+                  Create USD, GBP and EUR wallets to receive and send money and
+                  payments seamlessly in these multiple currencies
+                </h3>
+              </div>
+              <div class="mobileTwoImg">
+                <img
+                  src="/img/iPhone-13.png"
+                  alt="cudium screen"
+                  class="mobile-2-img"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mobileTwoSwipe">
+              <div class="Swipe2Content">
+                <h2 class="SwipeContent-main">2. Complete KYC verification.</h2>
+                <h3 class="SwipeContent-sub">
+                  Download the Cudium App from the play store, sign up, verify
+                  your identity in a few steps and your account is ready.
+                </h3>
+              </div>
+
+              <div class="mobileTwoImg">
+                <img
+                  src="/img/iPhone-13.png"
+                  alt="cudium screen"
+                  class="mobile-2-img"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mobileTwoSwipe">
+              <div class="Swipe3Content">
+                <h2 class="SwipeContent-main">
+                  3. Make limitless transactions
+                </h2>
+                <h3 class="SwipeContent-sub">
+                  Make global transactions- send, and receive USD, GBP and EUR
+                  without limits from/to anywhere in the world.
+                </h3>
+              </div>
+
+              <div class="mobileTwoImg">
+                <img
+                  src="/img/iPhone-13.png"
+                  alt="cudium screen"
+                  class="mobile-2-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
     </section>
     <!-- 2nd section end-->
 
